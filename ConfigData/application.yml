@@ -7,26 +7,26 @@ eureka:
 
 ---
 spring:
-  profiles: subject
+  profiles: Credit-Report
 words: I,You,He,She,It
   
 ---
 spring:
-  profiles: verb
+  profiles: D2C-Site
 words: ran,knew,had,saw,bought
 
 ---
 spring:
-  profiles: article
+  profiles: Infotrade
 words: a,the
 
 ---
 spring:
-  profiles: adjective
+  profiles: Workflow-Natura
 words: reasonable,leaky,suspicious,ordinary,unlikely
 
 ---
 spring:
-  profiles: noun
+  profiles: Infotrade
 words: boat,book,vote,seat,backpack,partition,groundhog
   
