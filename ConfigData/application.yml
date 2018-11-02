@@ -27,6 +27,6 @@ words: reasonable,leaky,suspicious,ordinary,unlikely
 
 ---
 spring:
-  profiles: Infotrade
+  profiles: Creditrends
 words: boat,book,vote,seat,backpack,partition,groundhog
   
