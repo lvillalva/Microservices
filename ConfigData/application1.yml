@@ -1,0 +1,31 @@
+---
+# Items that apply to ALL profiles:
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8012/eureka/,http://localhost:8013/eureka/,http://localhost:8011/eureka/
+
+---
+spring:
+  profiles: Credit-Report
+words: I,You,He,She,It
+  
+---
+spring:
+  profiles: D2C-Site
+words: ran,knew,had,saw,bought
+
+---
+spring:
+  profiles: Infotrade
+words: a,the
+
+---
+spring:
+  profiles: Workflow-Natura
+words: reasonable,leaky,suspicious,ordinary,unlikely
+
+---
+spring:
+  profiles: Creditrends
+words: boat,book,vote,seat,backpack,partition,groundhog
